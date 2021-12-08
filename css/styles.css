@@ -1,0 +1,89 @@
+:root {
+  --primary-text-color: #757575;
+  --second-text-coor: #212121;
+  --accent-hover-color: #2196f3;
+}
+
+body {
+  background-color: #e5e5e5;
+  color: var(--primary-text-color);
+}
+
+.logo {
+  color: #2196f3;
+}
+
+ul {
+  list-style: none;
+}
+
+/* site-nav */
+
+.site-nav .link {
+  color: #212121;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #2196f3;
+}
+
+/* contacts */
+
+.contacts .link {
+  color: #757575;
+}
+.contacts .link:hover,
+.contacts .link:focus {
+  color: #2196f3;
+}
+
+/* hero */
+
+.hero-title {
+  color: #ffffff;
+}
+
+/* button */
+
+.button {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+/* section */
+
+.section-title {
+  color: #212121;
+}
+
+/* description */
+
+.description .title {
+  color: #212121;
+}
+
+/* team */
+
+.peoples .title {
+  color: #212121;
+}
+
+/* footer */
+
+.address .link-contacts {
+  color: rgba(255, 255, 255, 0.6);
+}
+.address .link {
+  color: #ffffff;
+}
+
+/* основний колір тексту #757575 */
+/* другорядний колір тексту #212121 */
+
+/* ховер/акцент колір #2196F3 */
+
+/* білий #FFFFFF */
+
+/* текст футера rgba(255, 255, 255, 0.6); */
+
+/* колір фону #E5E5E5 */
+/* вторинний колір фону #F5F4FA */ ;
