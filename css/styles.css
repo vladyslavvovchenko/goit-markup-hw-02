@@ -2,6 +2,7 @@
   --primary-text-color: #757575;
   --second-text-coor: #212121;
   --accent-hover-color: #2196f3;
+  --primery-white-color: #ffffff;
 }
 
 body {
@@ -10,8 +11,13 @@ body {
 }
 
 .logo {
-  color: #2196f3;
+  color: var(--accent-hover-color);
 }
+
+.second-logo {
+  color: #000000;
+}
+/* прибирає крапки з лівого боку */
 
 ul {
   list-style: none;
@@ -20,51 +26,55 @@ ul {
 /* site-nav */
 
 .site-nav .link {
-  color: #212121;
+  color: var(--second-text-coor);
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
-  color: #2196f3;
+  color: var(--accent-hover-color);
+}
+
+.site-nav .link.current {
+  color: var(--accent-hover-color);
 }
 
 /* contacts */
 
 .contacts .link {
-  color: #757575;
+  color: var(--primary-text-color);
 }
 .contacts .link:hover,
 .contacts .link:focus {
-  color: #2196f3;
+  color: var(--accent-hover-color);
 }
 
 /* hero */
 
 .hero-title {
-  color: #ffffff;
+  color: var(--primery-white-color);
 }
 
 /* button */
 
 .button {
-  color: #ffffff;
-  background-color: #2196f3;
+  color: var(--primery-white-color);
+  background-color: var(--accent-hover-color);
 }
 /* section */
 
 .section-title {
-  color: #212121;
+  color: var(--second-text-coor);
 }
 
 /* description */
 
 .description .title {
-  color: #212121;
+  color: var(--second-text-coor);
 }
 
 /* team */
 
 .peoples .title {
-  color: #212121;
+  color: var(--second-text-coor);
 }
 
 /* footer */
@@ -73,7 +83,7 @@ ul {
   color: rgba(255, 255, 255, 0.6);
 }
 .address .link {
-  color: #ffffff;
+  color: var(--primery-white-color);
 }
 
 /* основний колір тексту #757575 */
@@ -86,4 +96,6 @@ ul {
 /* текст футера rgba(255, 255, 255, 0.6); */
 
 /* колір фону #E5E5E5 */
-/* вторинний колір фону #F5F4FA */ ;
+/* вторинний колір фону #F5F4FA */
+
+/* сторінка портфоліо */
