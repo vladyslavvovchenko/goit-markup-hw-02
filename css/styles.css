@@ -7,7 +7,10 @@
 
 body {
   background-color: #e5e5e5;
-  color: var(--primary-text-color);
+}
+
+.header {
+  background-color: var(--primery-white-color);
 }
 
 .logo {
@@ -61,19 +64,30 @@ ul {
 }
 /* section */
 
+.section {
+  background-color: #e5e5e5;
+}
+
 .section-title {
   color: var(--second-text-coor);
 }
 
 /* description */
-
+.description {
+  color: var(--primary-text-color);
+}
 .description .title {
   color: var(--second-text-coor);
 }
 
 /* team */
 
-.peoples .title {
+.team {
+  color: var(--primary-text-color);
+  background-color: #f5f4fa;
+}
+
+.team .title {
   color: var(--second-text-coor);
 }
 
@@ -99,3 +113,24 @@ ul {
 /* вторинний колір фону #F5F4FA */
 
 /* сторінка портфоліо */
+
+/*кнопки портфолио*/
+.portfolio-button {
+  color: var(--second-text-coor);
+  background-color: #f5f4fa;
+}
+
+.portfolio-button:hover,
+.portfolio-button:focus {
+  color: #2196f3;
+}
+
+/* меню */
+
+.services {
+  color: var(--primary-text-color);
+  background-color: #eeeeee;
+}
+.services-title {
+  color: var(--second-text-coor);
+}
