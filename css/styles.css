@@ -137,11 +137,13 @@ ul {
 .address .link-contacts {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
+  font-style: normal;
 }
 
 .address .link {
   color: var(--primery-white-color);
   text-decoration: none;
+  font-style: normal;
 }
 
 /* основний колір тексту #757575 */
