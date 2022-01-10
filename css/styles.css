@@ -145,6 +145,10 @@ ul {
   text-decoration: none;
   font-style: normal;
 }
+.address .link-contacts:hover,
+.address .link:focus {
+  color: var(--accent-hover-color);
+}
 
 /* основний колір тексту #757575 */
 /* другорядний колір тексту #212121 */
